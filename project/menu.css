@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+/* body {
+    background-color: #131314;
+ } */
+ /*body {
+   background-image: url('../img/digital.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}*/
+
+  .webdev-img {
+  width: 450px;
+  height: auto;
+}
+
+  .menu, li {
+    display: inline-block;
+  }
+
+  .menu > li {
+    margin-right: 20px;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  .menu a:hover {
+    color: red;
+  }
+
+  border: 1px solid black;
+
+
+ .webdev-header {
+    /* font-family:'Times New Roman', Times, serif; */
+    font-family:'Roboto Slab', serif;  
+    font-size: 50px;
+    text-shadow: 2px 2px 2px white;
+    text-align: center;
+    color:#79211d;
+    /* border-style: solid;
+    border-color: blue;
+    border-width: 1px; */
+    /* border: 5px solid blue;
+    font-style: italic;
+    text-decoration: underline; */
+ }
+
+ .webdev-text {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font: size 1rem;
+    /* text-indent: 25px; */
+    /* font: 17px/22px Arial, Helvetica, sans-serif;  */
+    color: gray;
+    /* text-align: justify;
+    font-weight: bold; */
+
+ }
+
+ .apply > a:hover {
+   color: red;
+ }
+
+ .apply > a:active {
+   color: green;
+ }
+ .fa-square-facebook {
+   color: blue;
+   font-size: 30px;
+ }
+
+ .fa-square-instagram {
+   color: rgb(143, 53, 80);
+   font-size: 30px;
+ }
+
+ table, th, td {
+  border: 1px solid black;
+ }
+
+ table { 
+  border-collapse: collapse;
+  width: 500px;
+ }
+
+ th {
+  color: #79211d;
+ }
+
+ td {
+  color: wheat;
+ }
