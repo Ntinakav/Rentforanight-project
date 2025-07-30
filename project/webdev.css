@@ -20,10 +20,9 @@
  .header {
     width: 100%;
     margin: 0 auto;
-    overflow: hidden;
     background-color: #c8b393;
     display: flex;
-    align-items: top; /* είχα center */
+    align-items: center;
     position: fixed;
     top: 0;
 } 
@@ -53,12 +52,13 @@
  .menu li {
    list-style: none;
    line-height: 40px;
+   
 }
 
  .menu a {
    text-decoration: none;
    color: white;
-   font-size: 1,2rem;
+   font-size: 1rem;               
    font-family: 'Roboto slab', serif;
 }
 
@@ -69,7 +69,7 @@
  .menu > ul > li:hover > ul {
    display: block;
    background-color: #c8b393;
-   width: 100px;
+   width: 140px;
    position: absolute;
    top: 40px;
 }
@@ -122,7 +122,7 @@
     width: 70%;
     margin: 0 auto; 
     padding-top: 300px;
-    padding-bottom: 50px; 
+    padding-bottom: 100px; 
 }
 
  .title > p {
@@ -193,10 +193,14 @@
 }
 
  .social {
-    width: 15%;
+    width: 35%;
     float: right;
     display: flex;
     align-items: center;
+}
+
+ .social-icons {
+   display: flex;
 }
 
  .social > p {
@@ -240,6 +244,7 @@
 
    .title > p {
       font-size: 30px;
+      color: red;
    }
 
    .subtitle > p {
@@ -276,13 +281,11 @@
    }
 
    .social {
-      flex-direction: column;   /* μου χάλασε τη στοίχιση στις μεγάλες οθόνες σαν στήλη */
+      flex-direction: column;   
       align-items: flex-end;    /* για οριζόντια στοίχιση */ 
    }
 
-   .social-icons {
-      display: flex;
-   }
+   
 
    .social > p {
       margin-right: 5px;
@@ -323,6 +326,11 @@
    .social > p {
       font-size: 10px;
    }
+   .footer {
+    
+    padding: 0px 0px;
+    
+}
 
 }
 
